@@ -1,6 +1,6 @@
 def binary_search(arr: list, val: object) -> int:
     """
-        Binary Search - O(logn) / Ω(1).
+        Binary Search - O(logn) | Ω(1).
 
         Binary search requires a sorted array. On first iteration middle element is selected
         as the pivotal element.

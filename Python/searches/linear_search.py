@@ -1,6 +1,6 @@
 def linear_search(arr: list, val: object) -> int:
     """
-        Linear Search - O(n) / Ω(1).
+        Linear Search - O(n) | Ω(1).
 
         Linear search is the simplest and most basic searching algorithm. 
         It searches the array for specified value by iterating over it,
