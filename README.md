@@ -10,8 +10,8 @@ This is a collection of algorithms I've come across in my short journey as a Com
 * Areas of Geometrical Shapes.
 
 ### Searches
-* Linear Search.
-* Binary Search.
+* [Linear Search](https://github.com/B4dAsh/Algorithms/blob/main/Python/searches/linear_search.py).
+* [Binary Search](https://github.com/B4dAsh/Algorithms/blob/main/Python/searches/binary_search.py).
 
 ### Sorts
 * Bubble Sort.
@@ -23,13 +23,10 @@ This is a collection of algorithms I've come across in my short journey as a Com
 * Caesar Cipher. (Encoder and decoder)
 * ROT13.
 
-### String Operations
-* Reverse String.
-* Palindrome Checker.
-
-
 ### Miscellaneous
-* Assertion.
+* [Palindrome Checker](https://github.com/B4dAsh/Algorithms/blob/main/Python/palindrome.py).
+* [Reversion](https://github.com/B4dAsh/Algorithms/blob/main/Python/reversion.py).
+* [Assertion](https://github.com/B4dAsh/Algorithms/blob/main/Python/assertion.py).
 
 I'll be updating this list as I add more and more algorithms to this repository...
 
