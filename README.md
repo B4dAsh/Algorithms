@@ -12,6 +12,7 @@ This is a collection of algorithms I've come across in my short journey as a Com
 ### Searches
 * [Linear Search](https://github.com/B4dAsh/Algorithms/blob/main/Python/searches/linear_search.py)
 * [Binary Search](https://github.com/B4dAsh/Algorithms/blob/main/Python/searches/binary_search.py)
+* [Recursive Binary Search](https://github.com/B4dAsh/Algorithms/blob/main/Python/searches/recursive_binary_search.py)
 
 ### Sorts
 * Bubble Sort
