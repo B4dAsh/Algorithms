@@ -1,7 +1,8 @@
 def reverse(item) -> object:
     """
-        Reverse - O(n/2) -> O(n) | Ω(n/2) -> Ω(n) - For lists and tuples.
-        O(n/2) + O(n) = O(3n/2) -> O(n) | Ω(n/2) + Ω(n) = Ω(3n/2) -> Ω(n) - For strings, integers and floats.
+        Reversion.
+        Time complexity - 
+        O(n/2) + O(n) = O(3n/2) -> O(n) For strings, integers and floats. |Ω(n/2) -> Ω(n) - For lists and tuples.
 
         This algorithms simply reverses the input given to it.
         Along with strings, lists and tuples it works with integers
@@ -28,7 +29,6 @@ def reverse(item) -> object:
 
 
 if __name__ == "__main__":
-
     # Tests.
     assert reverse("That's what she said") == "dias ehs tahw s'tahT"
     assert reverse(123456789) == 987654321
