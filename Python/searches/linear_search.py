@@ -11,6 +11,7 @@ def linear_search(item, val) -> int:
         not exists -1 is returned.
     """
 
+    # If item is int or float convert item and value to str for comparison.
     if isinstance(item, int) or isinstance(item, float):
         item = str(item)
         val = str(val)
