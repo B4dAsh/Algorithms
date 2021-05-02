@@ -18,7 +18,7 @@ This is a collection of algorithms I've come across in my short journey as a Com
 * [Bubble Sort](https://github.com/B4dAsh/Algorithms/blob/main/Python/sorts/bubble_sort.py)
 * [Insertion Sort](https://github.com/B4dAsh/Algorithms/blob/main/Python/sorts/insertion_sort.py)
 * [Selection Sort](https://github.com/B4dAsh/Algorithms/blob/main/Python/sorts/selection_sort.py)
-
+* [Quick Sort](https://github.com/B4dAsh/Algorithms/blob/main/Python/sorts/quick_sort.py)
 
 #### Miscellaneous
 * [Palindrome Checker](https://github.com/B4dAsh/Algorithms/blob/main/Python/palindrome.py)

@@ -6,7 +6,7 @@ def reverse(item) -> object:
 
         This algorithms simply reverses the input given to it.
         Along with strings, lists and tuples it works with integers
-        and floats too, by using some fancy recursion.
+        and floats too, by the use of recursion.
     """
 
     # If item is a string, convert it to a list since strings are immutable in Python.
