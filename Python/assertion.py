@@ -1,4 +1,4 @@
-def Assert(expr1, expr2, errorMsg="") -> bool:
+def assert_(expr1, expr2, errorMsg="") -> bool:
     """
         Assertion.
         Time complexity - O(1) | Ω(1)
@@ -16,8 +16,8 @@ def Assert(expr1, expr2, errorMsg="") -> bool:
 
 if __name__ == "__main__":
     # Tests
-    Assert(3, 3)
-    Assert("3", "3")
-    Assert(True, True)
-    Assert(False, False)
-    Assert(3>2, 8+9==17)
+    assert_(3, 3)
+    assert_("3", "3")
+    assert_(True, True)
+    assert_(False, False)
+    assert_(3>2, 8+9==17)
