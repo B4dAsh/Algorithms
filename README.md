@@ -5,7 +5,8 @@ This is a collection of algorithms I've come across in my short journey as a Com
 ## List of Algorithms
 
 ### Maths
-* Sieve of Eratosthenes
+* [Prime Number Checker](https://github.com/B4dAsh/Algorithms/blob/main/Python/maths/prime.py)
+* [Sieve of Eratosthenes](https://github.com/B4dAsh/Algorithms/blob/main/Python/maths/sieve_of_eratosthenes.py)
 * Operations on Matrices
 * Areas of Geometrical Shapes
 
