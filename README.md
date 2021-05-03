@@ -20,6 +20,10 @@ This is a collection of algorithms I've come across in my short journey as a Com
 * [Selection Sort](https://github.com/B4dAsh/Algorithms/blob/main/Python/sorts/selection_sort.py)
 * [Quick Sort](https://github.com/B4dAsh/Algorithms/blob/main/Python/sorts/quick_sort.py)
 
+#### Ciphers
+* [Caesar Cipher](https://github.com/B4dAsh/Algorithms/blob/main/Python/ciphers/caesar_cipher.py)
+* [ROT13](https://github.com/B4dAsh/Algorithms/blob/main/Python/ciphers/rot13.py)
+
 #### Miscellaneous
 * [Palindrome Checker](https://github.com/B4dAsh/Algorithms/blob/main/Python/palindrome.py)
 * [Reversion](https://github.com/B4dAsh/Algorithms/blob/main/Python/reversion.py)

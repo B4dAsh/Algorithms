@@ -132,9 +132,4 @@ dmypy.json
 *.class
 
 # Temporary
-Python/sorts/*
-Python/cryptography/*
-Python/matrix/*
 Java/*
-
-Python/string rev2.py
