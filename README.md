@@ -7,6 +7,7 @@ This is a collection of algorithms I've come across in my short journey as a Com
 #### Maths
 * [Prime Number Checker](https://github.com/B4dAsh/Algorithms/blob/main/Python/maths/prime.py)
 * [Sieve of Eratosthenes](https://github.com/B4dAsh/Algorithms/blob/main/Python/maths/sieve_of_eratosthenes.py)
+* [Simple Calculator](https://github.com/B4dAsh/Algorithms/blob/main/Python/maths/simple_calculator.py)
 
 #### Searches
 * [Linear Search](https://github.com/B4dAsh/Algorithms/blob/main/Python/searches/linear_search.py)
