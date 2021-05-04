@@ -30,6 +30,7 @@ This is a collection of algorithms I've come across in my short journey as a Com
 #### Sorts
 * [Bubble Sort.](https://github.com/B4dAsh/Algorithms/blob/main/Python/sorts/bubble_sort.py)
 * [Insertion Sort.](https://github.com/B4dAsh/Algorithms/blob/main/Python/sorts/insertion_sort.py)
+* [Merge Sort.](https://github.com/B4dAsh/Algorithms/blob/main/Python/sorts/merge_sort.py)
 * [Quick Sort.](https://github.com/B4dAsh/Algorithms/blob/main/Python/sorts/quick_sort.py)
 * [Selection Sort.](https://github.com/B4dAsh/Algorithms/blob/main/Python/sorts/selection_sort.py)
 
