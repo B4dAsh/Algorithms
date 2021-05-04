@@ -34,6 +34,9 @@ This is a collection of algorithms I've come across in my short journey as a Com
 * [Quick Sort.](https://github.com/B4dAsh/Algorithms/blob/main/Python/sorts/quick_sort.py)
 * [Selection Sort.](https://github.com/B4dAsh/Algorithms/blob/main/Python/sorts/selection_sort.py)
 
+#### Strings
+* [Camel Case.](https://github.com/B4dAsh/Algorithms/blob/main/Python/strings/camelcase.py)
+
 #### Miscellaneous
 * [Assertion.](https://github.com/B4dAsh/Algorithms/blob/main/Python/assertion.py)
 * [Filter-Map-Reduce.](https://github.com/B4dAsh/Algorithms/blob/main/Python/filter_map_reduce.py)
