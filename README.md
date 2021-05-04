@@ -4,6 +4,9 @@ This is a collection of algorithms I've come across in my short journey as a Com
 
 ## List of Algorithms
 
+#### Arrays
+* [Flatten](https://github.com/B4dAsh/Algorithms/blob/main/Python/arrays/flatten.py)
+
 #### Ciphers
 * [Caesar Cipher.](https://github.com/B4dAsh/Algorithms/blob/main/Python/ciphers/caesar_cipher.py)
 * [ROT13.](https://github.com/B4dAsh/Algorithms/blob/main/Python/ciphers/rot13.py)
@@ -22,6 +25,7 @@ This is a collection of algorithms I've come across in my short journey as a Com
 * [Linear Search.](https://github.com/B4dAsh/Algorithms/blob/main/Python/searches/linear_search.py)
 * [Recursive Binary Search.](https://github.com/B4dAsh/Algorithms/blob/main/Python/searches/recursive_binary_search.py)
 * [Recursive Linear Search.](https://github.com/B4dAsh/Algorithms/blob/main/Python/searches/recursive_linear_search.py)
+* [Shifted Binary Search](https://github.com/B4dAsh/Algorithms/blob/main/Python/searches/shifted_binary_search.py)
 
 #### Sorts
 * [Bubble Sort.](https://github.com/B4dAsh/Algorithms/blob/main/Python/sorts/bubble_sort.py)
