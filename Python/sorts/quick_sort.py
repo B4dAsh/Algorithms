@@ -2,13 +2,12 @@ def quick_sort(item) -> list:
     """
         Quick Sort.
         Time complexity - O(n^2) | Ω(n)
-
+        Space complexity - O(n)
 
         Quick sort is a divide and conquer algorithm. On each iteration
-        we select a pivot and crate three lists for elements smaller, equal
-        and greater than pivot. While considering equal list to be sorted, 
-        we again run quick sort on smaller and larger list.
-
+        we select a pivot and create three lists for elements smaller, 
+        equal and greater than pivot. While considering equal list to be 
+        sorted, we again run quick sort on smaller and larger list.
     """
 
     # If item passed is a tuple.

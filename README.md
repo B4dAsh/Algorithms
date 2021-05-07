@@ -1,6 +1,6 @@
 # Algorithms
 
-This is a collection of algorithms I've come across in my short journey as a Computer Science student. Since I'm still very much of a rookie, these might not be the most efficient or the best implementations.
+This is a collection of algorithms I've come across in my short journey as a Computer science student. Since I'm still very much of a rookie, these might not be the most efficient or the best implementations.
 
 ## List of Algorithms
 
@@ -43,8 +43,8 @@ This is a collection of algorithms I've come across in my short journey as a Com
 * [Palindrome Checker.](https://github.com/B4dAsh/Algorithms/blob/main/Python/palindrome.py)
 * [Reversion.](https://github.com/B4dAsh/Algorithms/blob/main/Python/reversion.py)
 
-I'll be updating this list as I add more and more algorithms to this repository...
-
 ## Afterthoughts
 
-Happy Coding! 😊
+Feel free to use/fork/modify these algorithms in any way you want. If you have any thoughts, criticism or want to contribute, [mail](mailto:aakashjainofficial@gmail.com) me.
+
+Keep Coding! 🤟😊
