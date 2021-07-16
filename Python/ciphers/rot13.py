@@ -14,9 +14,7 @@ def rot13(before_text) -> str:
 
     after_text = ""
 
-    for i in range(len(before_text)): # Iterate over the text,
-
-        char = before_text[i] # Store one char at a time.
+    for char in before_text: # Iterate over the text storing one char at a time,
 
         if char in ascii_uppercase: 
             # Shift it 13 places and append to end of after text.

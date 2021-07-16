@@ -10,8 +10,8 @@ def sieve_of_eratosthenes(limit) -> list:
         https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
     """
     
-    # Return empty list if limit is lower than the smaller prime number.
-    if limit <= 1:
+    # Return empty list if limit is lower than the smallest prime number.
+    if limit < 2:
         return []
 
     # Set all of the numbers to be prime.
