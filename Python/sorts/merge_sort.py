@@ -4,9 +4,9 @@ def merge_sort(arr) -> list:
         Time complexity - O(nlogn) | Ω(nlogn)
         Space complexity - O(n)
 
-        Merge sort is a divide and conquer sorting algorithm where on each 
-        call it divides array in two, calls itself on both halves and then 
-        merges sorted halves returned.
+        Merge sort is a divide-and-conquer sorting algorithm where on each 
+        call iterable is divided in two and merge sort is applied on both 
+        halves which are then merged into one.
     """
 
     # If there's only one element in the array.
@@ -17,7 +17,7 @@ def merge_sort(arr) -> list:
     if isinstance(arr, tuple):
         return tuple(merge_sort(list(arr)))
 
-    # Call merge sort on each partition
+    # Call merge sort on each partition.
     left = merge_sort(arr[:len(arr)//2])
     right = merge_sort(arr[len(arr)//2:])
 
@@ -26,7 +26,7 @@ def merge_sort(arr) -> list:
     i = j = 0
 
     while i < len(left) and j < len(right):
-        # Append whichever is smaller element
+        # Append whichever is smaller element.
         if left[i] < right[j]:
             arr.append(left[i])
             i += 1

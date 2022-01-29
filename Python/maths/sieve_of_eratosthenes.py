@@ -4,12 +4,12 @@ def sieve_of_eratosthenes(limit) -> list:
         Time Complexity - O(nlog(logn))
         Space Complexity - O(n)
 
-        The sieve of eratosthenes is one of the most efficient algorithms 
-        to find all the prime numbers not exceeding certain limit.
+        The Sieve of Eratosthenes is one of the most efficient algorithms 
+        to find all the prime numbers not exceeding a certain limit.
 
         https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
     """
-    
+
     # Return empty list if limit is lower than the smallest prime number.
     if limit < 2:
         return []
@@ -19,7 +19,7 @@ def sieve_of_eratosthenes(limit) -> list:
 
     result[0] = result[1] = False
 
-    i = 2 # Start loop from first prime number, which will mark all even
+    i = 2 # Start loop from first prime number, which will mark all even 
     # numbers to be false.
 
     while i * i <= limit:
@@ -31,7 +31,7 @@ def sieve_of_eratosthenes(limit) -> list:
 
         i += 1
 
-    # Return list of indices of all elements who are prime.
+    # Return list of indices of all elements who are marked true.
     return [n for n in range(len(result)) if result[n]]
 
 

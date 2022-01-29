@@ -4,10 +4,11 @@ def quick_sort(item) -> list:
         Time complexity - O(n^2) | Ω(n)
         Space complexity - O(n)
 
-        Quick sort is a divide and conquer algorithm. On each iteration
-        we select a pivot and create three lists for elements smaller, 
-        equal and greater than pivot. While considering equal list to be 
-        sorted, we again run quick sort on smaller and larger list.
+        Quick sort is a divide-and-conquer sorting algorithm. On each 
+        iteration a pivot is selected and then three lists created for 
+        elements smaller, equal to and greater than the pivot. Quick 
+        sort is then applied on both the smaller and greater lists, 
+        Leaving equal list as it is already sorted.
     """
 
     # If item passed is a tuple.
@@ -33,8 +34,8 @@ def quick_sort(item) -> list:
         else:
             eq.append(element)
 
-    # Now run quick sort on smaller and larger array, join them together 
-    # and return.
+    # Now run quick sort on both thesmaller and larger lists and 
+    # join them together and return.
     return quick_sort(small) + eq + quick_sort(large)
 
 
@@ -45,4 +46,3 @@ if __name__ == "__main__":
     assert quick_sort((82, 45)) == (45, 82)
     assert quick_sort((35.59, 67, 91, 3, 69, 34.2)) == (3, 34.2, 35.59, 67, 69, 91)
     assert quick_sort([3, 5, 6, 4, 7, 8, 1, 9, 10, 7, 3]) == [1, 3, 3, 4, 5, 6, 7, 7, 8, 9, 10]
-

@@ -3,6 +3,9 @@ def is_prime(number) -> bool:
         Prime Number Checker.
         Time Complexity - O(n^1/2)
         Space Complexity - O(1)
+
+        A Prime Number is a whole number whose only divisors are 1 and 
+        the number itself.
     """
 
     # If number is less than one or the number is even.
@@ -12,9 +15,9 @@ def is_prime(number) -> bool:
     i = 3
 
     while i * i <= number:
-        if number % i == 0: # If number is perfectly divisible.
+        if number % i == 0:
             return False
-        i += 2 # Increment by 2 to skip over even numbers
+        i += 2 # Increment by 2 to skip over even numbers.
 
     return True
 
@@ -29,7 +32,6 @@ if __name__ == "__main__":
     assert is_prime(4) == False
     assert is_prime(5) == True
     assert is_prime(9) == False
-
     assert is_prime(17) == True
     assert is_prime(81) == False
     assert is_prime(255) == False

@@ -2,14 +2,11 @@ def is_armstrong(num) -> bool:
     """
         Armstrong Number Checker.
 
-        An armstrong number is a number whose sum of cubes of all the
-        digits is equal to the the number itself.
+        An armstrong number is a number in which the sum of the cubes 
+        of all the singular digits is equal to the the number itself.
     """
 
-    if num < 0:
-        return False
-
-    if num == sum([pow(int(i), 3) for i in str(num)]):
+    if abs(num) == sum([pow(int(i), 3) for i in str(abs(num))]):
         return True
 
     return False
@@ -17,10 +14,10 @@ def is_armstrong(num) -> bool:
 
 if __name__ == "__main__":
     # Tests
-    assert is_armstrong(-153) == False
-    assert is_armstrong(-7) == False
     assert is_armstrong(0) == True
     assert is_armstrong(1) == True
+    assert is_armstrong(-7) == False
     assert is_armstrong(9) == False
     assert is_armstrong(68) == False
-    assert is_armstrong(153) == True
+    assert is_armstrong(-153) == True
+    assert is_armstrong(370) == True

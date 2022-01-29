@@ -1,30 +1,30 @@
 def reverse(item) -> object:
     """
         Reversion.
-        Time complexity - 
-        O(n/2) + O(n) = O(3n/2) -> O(n) For strings, integers and floats. |Ω(n/2) -> Ω(n) - For lists and tuples.
+        Time complexity -
+        O(n/2) + O(n) = O(3n/2) -> O(n) For strings, integers and floats. | Ω(n/2) -> Ω(n) - For lists and tuples.
 
-        This algorithms simply reverses the input given to it.
-        Along with strings, lists and tuples it works with integers
+        This algorithms reverses the input given to it.
+        Along with strings, lists and tuples it works with integers 
         and floats too, by the use of recursion.
     """
 
-    # If item is a string, convert it to a list since strings are immutable in Python.
+    # If item is a string, convert it to a list since strings are immutable in Python; 
     # then, pass it through this function and join the result and return it.
     if isinstance(item, str):
         return "".join(reverse(list(item)))
-    # If item is a int, covert it to a string and pass it again through this function,
-    # Return the returned result in integer format.
+    # If item is a int, covert it to a string and pass it again through this function, 
+    # Return the subsequently returned result as an integer.
     elif isinstance(item, int):
         return int(reverse(str(item)))
-    # If item is a float, do same thing as done with it and just return the result in float than int.
+    # If item is a float, follow same procedure as with integer and return the subsequent result as a float.
     elif isinstance(item, float):
         return float(reverse(str(item)))
 
     # Swap the element at index i with complement of i until halfway into the array.
     for i in range(len(item)//2):
         item[i], item[~i] = item[~i], item[i]
-        
+
     return item
 
 

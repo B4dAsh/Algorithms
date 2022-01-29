@@ -4,14 +4,14 @@ def is_palindrome(object) -> bool:
         Time complexity - O(n/2) -> O(n) | Ω(n/2) -> Ω(n)
         Space complexity - O(n)
 
-        This function checks whether the object is palindrome or not and 
+        This function checks whether the object is palindrome and 
         and based on that returns a boolean value.
 
-        * Case insensitive in case of Strings.
+        * Case insensitive in case of strings.
         * Works on integers, floats, lists and tuples.
     """
 
-    # If object is a string, make it lowercase to achieve
+    # If object is a string, make it lowercase to achieve 
     # case insensitivity.
     if isinstance(object, str):
         object = object.lower()
@@ -22,14 +22,13 @@ def is_palindrome(object) -> bool:
     elif isinstance(object, float):
         object = str(object).replace(".", "")
 
-    # Compare element at each index to the element situated at that index's
-    # complement index. If all of elements are equal return true else
-    # return false
+    # Compare element at each index to the element situated at that index's 
+    # complement index. If all of elements are equal return true else 
+    # return false.
     return all(object[i] == object[~i] for i in range(len(object)//2))
 
 
 if __name__ == "__main__":
-
     # Tests
     assert is_palindrome("") == True
     assert is_palindrome(7) == True

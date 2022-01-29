@@ -1,6 +1,7 @@
 def filter(func, iterable) -> list:
     """
         Filter.
+        Time Complexity - O(n) | Ω(1)
 
         Filters the iterable based on given function.
     """
@@ -14,8 +15,10 @@ def filter(func, iterable) -> list:
 def map(func, iterable):
     """
         Map.
+        Time Complexity - O(n) | Ω(1)
 
-        Applies the function to each element of the array.
+        Returns all of the results of a function applied 
+        on each element of the array.
     """
 
     if isinstance(iterable, tuple):
@@ -27,6 +30,7 @@ def map(func, iterable):
 def reduce(func, iterable):
     """
         Reduce.
+        Time Complexity - O(n) | Ω(1)
 
         Based on given function, returns single value.
     """

@@ -2,14 +2,14 @@ def flatten(arr) -> list:
     """
         Flatten.
 
-        Transforms multidimensional arrays to one dimensional array i.e. 
-        flattens them.
+        Transform multidimensional list to one dimensional list i.e. 
+        flatten it, recursively.
     """
 
     flat = []
 
     for element in arr:
-        if isinstance(element, list): # If element is a list,
+        if isinstance(element, list): # If element is a list, 
             flat.extend(flatten(element)) # Flatten it.
         else:
             flat.append(element) # Add to the list

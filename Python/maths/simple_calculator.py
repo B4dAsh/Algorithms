@@ -41,7 +41,7 @@ def simple_calculator():
             if method not in methods.keys():
                 print("Enter valid operation!")
                 continue
-            
+
             total = methods[method](total, float(line[1]))
 
     except ZeroDivisionError as e:

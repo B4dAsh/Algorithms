@@ -5,31 +5,30 @@ def binary_search_recursive(arr, val, lower=0, upper=None):
         Space complexity - O(n)
 
         Recursive binary search, just like normal binary search requires a 
-        sorted array. On first iteration middle element is selected as the 
-        pivotal element.
+        sorted array. On first iteration select middle element as the pivot 
+        and then-
 
         On each subsequent iteration:
-            * Check If the pivot is equal to the value being searched
+            * Check If the pivot is equal to the value being searched 
             Terminate if it is and return the index of pivot.
             * Else if pivotal element is smaller than value being searched 
-            then run binary search again while neglecting all elements
+            then run binary search again while neglecting all elements 
             equal or smaller than the pivot.
             * Else if the pivotal element is greater than the value 
-            run binary search neglecting all elements equal to greater than
+            run binary search neglecting all elements equal to greater than 
             the pivot.
-            * In case the array is divided until it consists of only one
-            element left which is also not equal to the value, it means 
-            that the element is not in the array and -1 is returned.
+            * If there's only a single element left in the iterable which means 
+            that the element being searched does not exist within the array, 
+            in which case return -1.
 
-        Binary Search, on each subsequent iteration divides the array in 
-        half and hence it is much efficient than Linear
-        search where all the elements are checked one by one.
-        While this recursive implementation does not provide
-        any fundamental advantage over iterative approach, we do it because
-        recursion is cool! :p
+        Binary Search, on each subsequent iteration divides the array in half 
+        and hence it is much efficient than Linear search where all the elements 
+        have to be checked one by one. Although this recursive implementation does 
+        not provide any advantage over the iterative approach, It sure is cooler of 
+        the two! :p
     """
 
-    # For the first iteration. This is a workaround
+    # For the first call. This is a workaround 
     # since default value assignment doesn't work if it depends upon 
     # another element being passed into the function...
     if upper is None:

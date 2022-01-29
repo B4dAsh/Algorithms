@@ -35,4 +35,3 @@ if __name__ == "__main__":
     assert selection_sort((82, 45)) == (45, 82)
     assert selection_sort((35.59, 67, 91, 3, 69, 34.2)) == (3, 34.2, 35.59, 67, 69, 91)
     assert selection_sort([3, 5, 6, 4, 7, 8, 1, 9, 10, 7, 3]) == [1, 3, 3, 4, 5, 6, 7, 7, 8, 9, 10]
-

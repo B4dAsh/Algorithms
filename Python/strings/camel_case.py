@@ -3,8 +3,9 @@ import re
 def camel_case(str) -> str:
     """
         Camel Case.
+        Time Complexity - O(n) | Ω(1)
 
-        This program coverts string to camel case.
+        This program coverts strings to camel case.
     """
 
     # Check for empty string.
@@ -15,10 +16,10 @@ def camel_case(str) -> str:
     words = re.split("[_%*.\-\s]", str.lower())
 
     # Join the string after converting each word to title case.
-    camelcase = "".join([word.title() for word in words])
+    result = "".join([word.title() for word in words])
 
     # Return concatenation of first letter to lower case and rest of the string.
-    return camelcase[0].lower() + camelcase[1:]
+    return result[0].lower() + result[1:]
 
 
 if __name__ == "__main__":

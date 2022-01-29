@@ -3,9 +3,9 @@ def assert_(expr1, expr2, errorMsg="") -> bool:
         Assertion.
         Time complexity - O(1) | Ω(1)
 
-        Simple assertion script that raises assertion error if both values
-        are not equal. Would work on user defined objects too provided 
-        that obj.__eq__() method is defined.
+        Simple assertion script that raises assertion error if both values 
+        are not equal. Would work on custom objects too provided that 
+        obj.__eq__() method is defined.
     """
 
     if expr1 != expr2:

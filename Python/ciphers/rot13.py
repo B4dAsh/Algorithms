@@ -7,14 +7,16 @@ def rot13(before_text) -> str:
         Space complexity - O(n)
 
         A modification of Caesar Cipher where each alphabet is shifted 
-        13 places which means the same algorithm can be used to encrypt as 
-        well as decrypt the text. Just like caesar cipher, It is not very 
-        secure and easy to break.
+        13 places meaning the same algorithm can be used to encrypt as 
+        well as decrypt the text. This change from Caesar Cipher - which 
+        already a weak standard, makes ROT13 even weaker choice. Probably, 
+        the only benefit of using it may have been that one didn't need to 
+        remember the key. 
     """
 
     after_text = ""
 
-    for char in before_text: # Iterate over the text storing one char at a time,
+    for char in before_text: # Iterate over the text storing one char at a time, 
 
         if char in ascii_uppercase: 
             # Shift it 13 places and append to end of after text.
@@ -23,7 +25,7 @@ def rot13(before_text) -> str:
             after_text += ascii_lowercase[(ascii_lowercase.index(char) - 13) % 26]
         else: # If char is not alphabet.
             after_text += char
-    
+
     return after_text
 
 
