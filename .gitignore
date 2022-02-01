@@ -127,9 +127,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# Ignore Java bytecode.
-*.class
-
-# Temporary
-Java/*
